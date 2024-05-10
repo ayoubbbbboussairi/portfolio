@@ -7,11 +7,18 @@ import React from 'react'
 const Experience = [
     {
         id: 1,
-        post: 'Data analytics',
-        company: 'Alx Africa',
-        date: 'Mar 2024 - today',
+        post: 'End-of-study internship',
+        company: 'Capgemini Engineering',
+        date: 'Mar 2023 - Sep 2023',
         local: 'Casablanca'
-    }
+    },
+    {
+        id: 2,
+        post: 'End-of-year internship',
+        company: 'OCP Group',
+        date: 'Jul 2022 - Sep 2022',
+        local: 'Khouribga'
+    },
 ]
 
 const EducationData = [
