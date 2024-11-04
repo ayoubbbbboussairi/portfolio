@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 export default function Home() {
 
 
-  const greetings = ['Bonjour👋', 'Hello👋',   ' 👋سلام', 'ⴰⵣⵓⵍ👋'];
+  const greetings = ['Bonjour👋', 'Hello👋', ' 👋سلام', 'ⴰⵣⵓⵍ👋'];
   const [currentGreetingIndex, setCurrentGreetingIndex] = useState<number>(0);
   // const [darkMode, setDarkMode] = useState(false);
 
@@ -62,13 +62,13 @@ export default function Home() {
 
           <h1 className="text-[#42446E]">My name is</h1>
           <h1 className="text-gradient">Ayoub Boussairi</h1>
-          <h1 className="text-[#42446E]">Process, Energy & Environmental Engineer | Data Analytics</h1>
+          <h1 className="text-[#42446E]">Nuclear Energy Engineer</h1>
           <div className="flex gap-3">
-                    <a className='bg-[#42446E] text-white  rounded-full w-44 h-14 flex justify-center items-center font-medium hover:scale-105 duration-500 text-xl border-gradient'href='./cv.pdf' download>Download CV
-                    </a>
-      
-              <Link href='/contact'><img className=" hover:scale-105 duration-300 h-14" src="./contactMe.svg" /></Link>
-      
+            <a className='bg-[#42446E] text-white  rounded-full w-44 h-14 flex justify-center items-center font-medium hover:scale-105 duration-500 text-xl border-gradient' href='./cv.pdf' download>Download CV
+            </a>
+
+            <Link href='/contact'><img className=" hover:scale-105 duration-300 h-14" src="./contactMe.svg" /></Link>
+
             <a href="https://www.linkedin.com/in/ayoub-boussairi-944636237/"><img className="duration-300 hover:scale-105" src="./in.svg" /></a>
             <a href="https://github.com/ayoubbbbboussairi"><img className=" duration-300 hover:scale-105" src="./git.svg" /></a>
 
@@ -90,7 +90,7 @@ export default function Home() {
             }}
           >
             <div className="hj-96 w-h96 border-gradient  rounded-full">
-            <img className="h-96 w-96 rounded-full" src="./Me.jpg" alt="Me" />
+              <img className="h-96 w-96 rounded-full" src="./Me.jpg" alt="Me" />
             </div>
           </motion.div>
         </div>

@@ -7,37 +7,58 @@ import React from 'react'
 const Experience = [
     {
         id: 1,
-        post: 'Data analytics',
-        company: 'Alx Africa',
-        date: 'Mar 2024 - today',
+        post: 'Quality engineer',
+        company: 'Camiverre',
+        date: 'Mar 2024 - Aug 2023',
+        local: 'Marrakech'
+    },
+    {
+        id: 2,
+        post: 'End-of-study internship',
+        company: 'Capgemini Engineering',
+        date: 'Mar 2023 - Sep 2023',
         local: 'Casablanca'
-    }
+    },
+    {
+        id: 3,
+        post: 'End-of-year internship',
+        company: 'OCP Group',
+        date: 'Jul 2022 - Sep 2022',
+        local: 'Khouribga'
+    },
 ]
 
 const EducationData = [
     {
         id: 1,
-        filier: 'Data analytics',
-        school: 'Alx Africa',
-        date: 'Mar 2024 - today',
-        local: 'Casablanca'
+        filier: 'Master 2 in Nuclear Energy',
+        school: 'Paris-Saclay University',
+        date: 'sep 2024 - Today',
+        local: 'France'
     },
     {
         id: 2,
-        filier: 'Computer Programming',
-        school: '1337 coding school (42 Network)',
-        local: 'Khouribga',
-        date: 'Juin 2022 - Oct 2023'
+        filier: 'Data analytics',
+        school: 'Alx Africa',
+        date: 'Mar 2024 - Aug 2024',
+        local: 'Casablanca'
     },
     {
         id: 3,
+        filier: 'Computer Programming',
+        school: '1337 coding school (42 Network)',
+        local: 'Khouribga',
+        date: 'Juin 2022 - nov 2023'
+    },
+    {
+        id: 4,
         filier: 'Engineer Degree in Process Engineering, Energy, and Environment',
         school: 'National School of Applied Sciences (Ensa)',
         date: 'Sep 2018 - Sep 2023',
         local: 'Khouribga'
     },
     {
-        id: 4,
+        id: 5,
         filier: 'High School Diploma in Physical Sciences',
         school: 'Hassan II',
         local: 'Oued zem',
@@ -48,47 +69,59 @@ const EducationData = [
 const certificationsData = [
     {
         id: 1,
+        name: 'ALX Data Analytics',
+        link: 'https://savanna.alxafrica.com/certificates/mpx8RS7FZC',
+        img: './about/ALX.png'
+    },
+    {
+        id: 2,
+        name: 'Google Project Management',
+        link: 'https://coursera.org/verify/professional-cert/JYP9LLS6JAS8',
+        img: './about/prjman.png'
+    },
+    {
+        id: 3,
         name: 'Six Sigma Yellow Belt',
         link: 'https://coursera.org/share/b327b00d6b1e8b55750ef7dad589affb',
         img: './about/sixsigma.png'
     },
     {
-        id: 2,
+        id: 4,
         name: 'Google Data Analytics',
         link: 'https://coursera.org/share/63f984957a87425372dc3fc42d964582',
         img: './about/google.png'
 
     },
     {
-        id: 3,
+        id: 5,
         name: 'Microsoft Power BI Data Analyst',
         link: 'https://coursera.org/share/3476d2a3864ae01bbc9193235a0dc279',
         img: './about/powerbi.png'
 
     },
     {
-        id: 4,
+        id: 6,
         name: 'Google Advanced Data Analytics',
         link: 'https://coursera.org/share/43a642e56dcc89fc81fa79eabef14ae8',
         img: './about/google2.png'
 
     },
     {
-        id: 5,
+        id: 7,
         name: 'Getting Started with Python',
         link: 'https://www.coursera.org/account/accomplishments/records/TD4SSS4WS7G6',
         img: './about/python.png'
 
     },
     {
-        id: 6,
+        id: 8,
         name: 'SQL For Data Science',
         link: 'https://www.coursera.org/account/accomplishments/records/TD4SSS4WS7G6',
         img: './about/sqlcert.png'
 
     },
     {
-        id: 7,
+        id: 9,
         name: 'Life Cycle Assesment',
         link: 'https://www.coursera.org/account/accomplishments/verify/PVD9M2JSJVK3',
         img: './about/life.png'
@@ -117,7 +150,7 @@ export default function About() {
             >
                 <div className="flex-col flex gap-10">
                     <h1 className="  text-[#42446E]  text-5xl font-bold flex justify-center"> About Me</h1>
-                    <p className='text-[#666666] text-xl'>{'Engineer, with a strong sense of detail and organization, passionate about the industrial processes, energy, and environment sector. Experienced in optimizing systems and processes to enhance efficiency and sustainability. Skilled in project management, data analysis, and problem-solving. Committed to driving innovation and making a positive impact on both industry and the environment.'}</p>
+                    <p className='text-[#666666] text-xl'>{'Engineer specializing in Nuclear Energy, with a strong sense of detail and organization, passionate about the industrial processes, energy, and environment sector. Experienced in optimizing systems and processes to enhance efficiency and sustainability. Skilled in project management, data analysis, and problem-solving. Committed to driving innovation and making a positive impact on both industry and the environment.'}</p>
                 </div>
             </motion.div>
             <motion.div className='w-[70%]  bg-sflate-100 gap-14 flex flex-col'
