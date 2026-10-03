@@ -1,8 +1,8 @@
 // ==================[ About Image ]================== //
 export const achievements = [
-  "💡 Master 2 Énergie Nucléaire",
+  "🎓 Ingénieur Énergie Nucléaire",
   "✅ Mobilité France Entière",
-  "🌍 Disponible pour Stage (6 mois)",
+  "🚀 Disponible immédiatement",
 ];
 
 // ==================[ About Me Text ]================== //
@@ -29,54 +29,61 @@ export const cv = {
 export const tools = [
   // 1
   {
+    name: "CST Studio Suite",
+    image: "/images/tools/cst.png",
+    color: "purple",
+  },
+
+  // 2
+  {
     name: "Python",
     image: "/images/tools/python.png",
     color: "blue",
   },
 
-  // 2
+  // 3
   {
     name: "Matlab",
     image: "/images/tools/matlab.png",
     color: "blue",
   },
 
-  // 3
+  // 4
   {
     name: "C/C++",
     image: "/images/tools/cpp.png",
     color: "red",
   },
 
-  // 4
+  // 5
   {
     name: "OpenModelica",
     image: "/images/tools/openmodelica.png",
     color: "pink",
   },
 
-  // 5
+  // 6
   {
     name: "Ansys Fluent",
     image: "/images/tools/ansys.png",
     color: "black",
   },
 
-  // 6
+  // 7
   {
     name: "CATIA",
     image: "/images/tools/catia.png",
     color: "blue",
   },
 
-  // 7
+  // 8
   {
     name: "Power BI",
     image: "/images/tools/powerbi.png",
     color: "red",
   },
 
-  // 8
+  // 9
   {
     name: "Excel Avancé",
     image: "/images/tools/excel.png",
@@ -89,29 +96,35 @@ export const tools = [
 export const skills = [
   // 1
   {
+    skill: "Simulation Électromagnétique (CST)",
+    progress: 90,
+  },
+
+  // 2
+  {
     skill: "Sûreté Nucléaire & Radioprotection",
     progress: 95,
   },
 
-  // 2
+  // 3
   {
     skill: "Thermohydraulique & Simulation",
     progress: 90,
   },
 
-  // 3
+  // 4
   {
     skill: "Analyse de Risques (AMDEC/HAZOP)",
     progress: 92,
   },
 
-  // 4
+  // 5
   {
     skill: "Gestion de Projet & Lean",
     progress: 85,
   },
 
-  // 5
+  // 6
   {
     skill: "Modélisation (FTA/DFT)",
     progress: 88,

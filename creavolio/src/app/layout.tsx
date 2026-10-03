@@ -37,8 +37,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={cn(dark_theme ? "dark" : "", "")}>
+    <html
+      lang="en"
+      className={cn(dark_theme ? "dark" : "", "")}
+      suppressHydrationWarning
+    >
       <body
+        suppressHydrationWarning
         className={cn(
           font.className,
           "overflow-x-clip bg-[var(--bg-secondary)] relative"
