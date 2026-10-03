@@ -5,13 +5,21 @@ export const experience = {
   working: [
     // 1
     {
+      event: "Stage de Recherche (PFE) | IJCLab — CNRS / Université Paris-Saclay",
+      year: "Mai - Septembre 2026",
+      description:
+        "Étude électromagnétique par simulation (CST Studio Suite) des éléments d'extraction des faisceaux d'ions d'une source d'ionisation de type Nier-Bernas, au sein de l'équipe FIIRST. Évaluation de la faisabilité de remplacer l'extraction transverse par fente par une extraction axiale à travers un trou circulaire, dans le cadre de la production de faisceaux d'ions radioactifs (ISOL) à ALTO.",
+    },
+
+    // 2
+    {
       event: "Ingénieur Sûreté & Analyse de Risques | CNESTEN",
       year: "Avril - Août 2025",
       description:
         "Étude critique du système passif de dissipation de chaleur d'un réacteur nucléaire. Réalisation d'AMDEC et d'APR, modélisation d'arbres de défaillance (FTA/DFT) et simulation thermohydraulique sous OpenModelica pour évaluer la résilience du système.",
     },
 
-    // 2
+    // 3
     {
       event: "Ingénieur Dimensionnement & Études | Ventec Maroc",
       year: "Avril - Août 2024",
@@ -19,7 +27,7 @@ export const experience = {
         "Conception d'un système frigorifique centralisé (R404A) pour zones hospitalières critiques. Modélisation complète de l'installation, dimensionnement des équipements et étude technico-économique comparative (Scénario Ammoniac).",
     },
 
-    // 3
+    // 4
     {
       event: "Ingénieur Amélioration Continue | Camiverre",
       year: "Mars - Août 2023",
@@ -27,7 +35,7 @@ export const experience = {
         "Optimisation des flux de production (Lean 5S) réduisant les temps de traitement de 50%. Mise en place d'un tableau de bord Power BI temps réel et réalisation d'audits ISO 9001/14001 avec 96% de conformité.",
     },
 
-    // 4
+    // 5
     {
       event: "Stage Ingénieur | OCP",
       year: "Avril - Août 2022",
