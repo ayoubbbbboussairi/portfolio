@@ -2,6 +2,18 @@
 export const projects = [
   // 1
   {
+    title: "Simulation EM Source d'Ions Nier-Bernas",
+    description:
+      "Stage de recherche à l'IJCLab (équipe FIIRST). Étude électromagnétique par simulation CST des éléments d'extraction d'une source d'ions type Nier-Bernas, comparant l'extraction transverse par fente à une extraction axiale par trou circulaire, pour la production de faisceaux d'ions radioactifs (ISOL) à ALTO.",
+    images: ["/images/projects/ijclab_nier_bernas.png"],
+    tags: ["Physique", "Simulation EM", "Faisceaux d'ions"],
+    tools_used: ["CST Studio Suite", "Python"],
+    duration: "Stage de Recherche — IJCLab",
+    link: "#",
+  },
+
+  // 2
+  {
     title: "Analyse Dynamique Piscine Réacteur",
     description:
       "Étude de la réponse d'une piscine de réacteur en béton soumise à une explosion de vapeur. Modélisation par Éléments Finis (FEA) et analyse non-linéaire de la dynamique des structures.",
@@ -12,7 +24,7 @@ export const projects = [
     link: "https://github.com/ayoubbbbboussairi/analyse-dynamique-piscine-reactor",
   },
 
-  // 2
+  // 3
   {
     title: "Fiabilité Système Diesel Secours",
     description:
@@ -24,7 +36,7 @@ export const projects = [
     link: "#",
   },
 
-  // 3
+  // 4
   {
     title: "Modélisation Géotechnique Sismique",
     description:
@@ -36,7 +48,7 @@ export const projects = [
     link: "https://github.com/ayoubbbbboussairi/Seismic-Wave-Behaviour-in-Soil-Layers",
   },
 
-  // 4
+  // 5
   {
     title: "Contrôle Dynamique Réacteur LFR",
     description:
@@ -48,7 +60,7 @@ export const projects = [
     link: "https://github.com/ayoubbbbboussairi/Lead-Fast-Reactor-modelling-and-control",
   },
 
-  // 5
+  // 6
   {
     title: "Analyse Prédictive de Données",
     description:
@@ -60,7 +72,7 @@ export const projects = [
     link: "#",
   },
 
-  // 6
+  // 7
   {
     title: "Dashboard Industriel Power BI",
     description:
